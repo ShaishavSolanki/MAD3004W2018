@@ -1,0 +1,62 @@
+
+Task 1(a)
+
+		Difference between TUPLE and DICTIONARY
+
+
+TupleDictionarySeveral elements are joined togetherStores records in Key-value pair.It stores record in order sequenceDoes not store record in sequence Values cannot be changedValues can be changed
+
+
+Task1(b)
+Create a dictionary
+[
+	person{
+		“firstName” : “JK”
+		“lastName” : “Patel”
+		“age” : 50
+		“address” : {
+			“street” : “265 york land blvd”
+			“area” : “NorthYork”
+			“postalCode” : “M1H1Y1”
+	}	
+		“total amount” : 2000
+}
+
+
+]
+
+
+Solution: -
+
+var Address = [String: AnyObject]()
+Address["Street"] = "265 Yorkland Blvd" as! AnyObject
+Address["Area"] = "North York" as AnyObject
+Address["Postal Code"] = "M1H1Y1" as AnyObject
+
+var person = [String:AnyObject]()
+person["FirstName"] = "JK" as AnyObject
+person["LastName"] = "Patel" as AnyObject
+person["Age"]   = 50 as AnyObject
+person["Address"] = Address as AnyObject
+person["Total Amount"] = 200 as AnyObject
+
+print("Person",person)
+
+
+Task1(c)
+
+	Create a function which can find a factorial of given number
+
+func factorial(num: Int) -> (Int)
+{
+    if num == 1
+    {
+        return 1
+    }else{
+       return num * factorial(num: num - 1) 
+
+        
+    }
+}
+
+factorial(num:3)
