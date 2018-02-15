@@ -4,22 +4,31 @@ Task 1(a)
 		Difference between TUPLE and DICTIONARY
 
 
-TupleDictionarySeveral elements are joined togetherStores records in Key-value pair.It stores record in order sequenceDoes not store record in sequence Values cannot be changedValues can be changed
+Tuple 
+Several elements are joined together
+It stores record in order sequence
+Values cannot be changed
+
+Dictionary
+Stores records in Key-value pair.
+Does not store record in sequence 
+Values can be changed
+
 
 
 Task1(b)
 Create a dictionary
 [
 	person{
-		“firstName” : “JK”
-		“lastName” : “Patel”
-		“age” : 50
-		“address” : {
-			“street” : “265 york land blvd”
-			“area” : “NorthYork”
-			“postalCode” : “M1H1Y1”
+		â€œfirstNameâ€ : â€œJKâ€
+		â€œlastNameâ€ : â€œPatelâ€
+		â€œageâ€ : 50
+		â€œaddressâ€ : {
+			â€œstreetâ€ : â€œ265 york land blvdâ€
+			â€œareaâ€ : â€œNorthYorkâ€
+			â€œpostalCodeâ€ : â€œM1H1Y1â€
 	}	
-		“total amount” : 2000
+		â€œtotal amountâ€ : 2000
 }
 
 
